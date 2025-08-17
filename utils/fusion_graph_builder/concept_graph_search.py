@@ -1,4 +1,4 @@
-# utils/concept_graph_search.py
+# utils/fusion_graph_builder/concept_graph_search.py
 from __future__ import annotations
 import requests
 from urllib.parse import quote
@@ -102,6 +102,6 @@ def fetch_conceptnet_triples(
 
 # 간단 테스트
 if __name__ == "__main__":
-    triples = fetch_conceptnet_triples("dog", min_weight=2.0, max_num=5)
+    triples = fetch_conceptnet_triples("dog", min_weight=2.0, max_num=2)
     for t in triples:
         print(t)

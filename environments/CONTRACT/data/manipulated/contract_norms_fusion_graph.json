@@ -1,0 +1,440 @@
+[
+  {
+    "contract_id": 466,
+    "norm1": {
+      "norm_id": 82524,
+      "norm_text": "To this end, subject to any confidentiality agreements Solectron may have, Solectron will both inform and provide a commercially reasonable opportunity for acquisition of new and emerging Solectron and industry technology.",
+      "fusion_graph": {
+        "edges": [
+          {
+            "source": "Solectron",
+            "relation": "will",
+            "target": "inform acquisition of new and emerging Solectron and industry technology subject to confidentiality agreements",
+            "source_graph": "eventic"
+          },
+          {
+            "source": "Solectron",
+            "relation": "will",
+            "target": "provide opportunity for acquisition of new and emerging Solectron and industry technology subject to confidentiality agreements",
+            "source_graph": "eventic"
+          },
+          {
+            "source": "Solectron",
+            "relation": "successor",
+            "target": "Flextronics",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Solectron",
+            "relation": "industry",
+            "target": "Electronics Manufacturing Services",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Solectron",
+            "relation": "subject",
+            "target": "2007 disestablishments in California",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Solectron",
+            "relation": "IsA",
+            "target": "A company that provides manufacturing and supply chain services for electronics, specializing in contract manufacturing and technology solutions.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Flex (company)",
+            "relation": "location",
+            "target": "San Jose, California",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Flex (company)",
+            "relation": "location",
+            "target": "Singapore",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Flex (company)",
+            "relation": "type",
+            "target": "Public company",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Flextronics",
+            "relation": "IsA",
+            "target": "A multinational electronics manufacturing services company providing design, engineering, and supply chain solutions to various industries.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Electronics manufacturing services",
+            "relation": "hypernym",
+            "target": "Term",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Electronics manufacturing services",
+            "relation": "subject",
+            "target": "Production and manufacturing by product",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Electronics manufacturing services",
+            "relation": "thumbnail",
+            "target": "Electronic Printed Circuit Board.jpg?width=300",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Electronics Manufacturing Services",
+            "relation": "IsA",
+            "target": "A service that provides comprehensive manufacturing solutions for electronic products including design, assembly, and supply chain management, tailored for various industries.",
+            "source_graph": "term_definition"
+          }
+        ]
+      }
+    },
+    "norm2": {
+      "norm_id": 83696,
+      "norm_text": "Solectron can choose not to inform new industry technologies produced by them",
+      "fusion_graph": {
+        "edges": [
+          {
+            "source": "Solectron",
+            "relation": "can",
+            "target": "choose not to inform new industry technologies produced by them",
+            "source_graph": "eventic"
+          },
+          {
+            "source": "Solectron",
+            "relation": "successor",
+            "target": "Flextronics",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Solectron",
+            "relation": "industry",
+            "target": "Electronics Manufacturing Services",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Solectron",
+            "relation": "subject",
+            "target": "2007 disestablishments in California",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Solectron",
+            "relation": "IsA",
+            "target": "A global provider of electronics manufacturing services, specializing in design, engineering, and supply chain management solutions for technology companies.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Flex (company)",
+            "relation": "location",
+            "target": "San Jose, California",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Flex (company)",
+            "relation": "location",
+            "target": "Singapore",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Flex (company)",
+            "relation": "type",
+            "target": "Public company",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Flextronics",
+            "relation": "IsA",
+            "target": "A global supply chain solutions provider specializing in electronic manufacturing services and supply chain management for various industries.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Electronics manufacturing services",
+            "relation": "hypernym",
+            "target": "Term",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Electronics manufacturing services",
+            "relation": "subject",
+            "target": "Production and manufacturing by product",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Electronics manufacturing services",
+            "relation": "thumbnail",
+            "target": "Electronic Printed Circuit Board.jpg?width=300",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Electronics Manufacturing Services",
+            "relation": "IsA",
+            "target": "A service that provides design, production, and assembly of electronic components and devices for other companies.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "2007 disestablishments in California",
+            "relation": "IsA",
+            "target": "A category encompassing organizations, institutions, or entities that ceased operations or were officially dissolved in California during the year 2007.",
+            "source_graph": "term_definition"
+          }
+        ]
+      }
+    },
+    "conflict": 1
+  },
+  {
+    "contract_id": 466,
+    "norm1": {
+      "norm_id": 82758,
+      "norm_text": "NCR shall pay the freight carrier directly.",
+      "fusion_graph": {
+        "edges": [
+          {
+            "source": "NCR",
+            "relation": "shall",
+            "target": "pay the freight carrier directly",
+            "source_graph": "eventic"
+          },
+          {
+            "source": "NCR Corporation",
+            "relation": "location city",
+            "target": "Georgia (U.S. State)",
+            "source_graph": "entity"
+          },
+          {
+            "source": "NCR Corporation",
+            "relation": "type",
+            "target": "Public company",
+            "source_graph": "entity"
+          },
+          {
+            "source": "NCR Corporation",
+            "relation": "product",
+            "target": "Point of sale",
+            "source_graph": "entity"
+          },
+          {
+            "source": "NCR",
+            "relation": "IsA",
+            "target": "National Capital Region, an administrative region in a country, typically featuring a city and surrounding areas.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Georgia (U.S. State)",
+            "relation": "IsA",
+            "target": "A U.S. state located in the southeastern region, known for its diverse geography and as the birthplace of civil rights movements.",
+            "source_graph": "term_definition"
+          }
+        ]
+      }
+    },
+    "norm2": {
+      "norm_id": 83697,
+      "norm_text": "NCR must pay the freight carrier making a back deposit",
+      "fusion_graph": {
+        "edges": [
+          {
+            "source": "NCR",
+            "relation": "must",
+            "target": "pay the freight carrier making a back deposit",
+            "source_graph": "eventic"
+          },
+          {
+            "source": "NCR Corporation",
+            "relation": "location city",
+            "target": "Georgia (U.S. State)",
+            "source_graph": "entity"
+          },
+          {
+            "source": "NCR Corporation",
+            "relation": "type",
+            "target": "Public company",
+            "source_graph": "entity"
+          },
+          {
+            "source": "NCR Corporation",
+            "relation": "product",
+            "target": "Point of sale",
+            "source_graph": "entity"
+          },
+          {
+            "source": "NCR",
+            "relation": "IsA",
+            "target": "A National Capital Region designation, often referring to urban areas with special administrative status and governance, impacting economic and infrastructural development.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Georgia (U.S. State)",
+            "relation": "IsA",
+            "target": "A U.S. state located in the southeastern region, known for its diverse geography and significant historical role in the civil rights movement.",
+            "source_graph": "term_definition"
+          }
+        ]
+      }
+    },
+    "conflict": 1
+  },
+  {
+    "contract_id": 466,
+    "norm1": {
+      "norm_id": 83164,
+      "norm_text": "Products should be appropriately labeled with the European CE mark and any country specific requirements.",
+      "fusion_graph": {
+        "edges": [
+          {
+            "source": "Products",
+            "relation": "should",
+            "target": "be appropriately labeled with the European CE mark and any country specific requirements",
+            "source_graph": "eventic"
+          },
+          {
+            "source": "Film producer",
+            "relation": "subject",
+            "target": "Film producers",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Film producer",
+            "relation": "subject",
+            "target": "Entertainment occupations",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Film producer",
+            "relation": "subject",
+            "target": "Filmmaking occupations",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Products",
+            "relation": "IsA",
+            "target": "Tangible or intangible goods and services created to meet consumer needs, often sold in the marketplace.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Film producers",
+            "relation": "IsA",
+            "target": "Individuals or companies responsible for overseeing the production of films, including financing, hiring, and managing the filmmaking process.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Entertainment occupations",
+            "relation": "IsA",
+            "target": "Job roles in the creative industry focused on providing amusement and enjoyment through various mediums such as film, music, and performance.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Film director",
+            "relation": "subject",
+            "target": "Directors",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Film director",
+            "relation": "hypernym",
+            "target": "Person",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Film director",
+            "relation": "subject",
+            "target": "Entertainment occupations",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Filmmaking occupations",
+            "relation": "IsA",
+            "target": "Professionals involved in the creation of films, including directors, producers, cinematographers, and editors, each contributing specific skills to the filmmaking process.",
+            "source_graph": "term_definition"
+          }
+        ]
+      }
+    },
+    "norm2": {
+      "norm_id": 83698,
+      "norm_text": "Products may be labeled with the European CE mark but shall not have any labels from country specific requirements",
+      "fusion_graph": {
+        "edges": [
+          {
+            "source": "Products",
+            "relation": "may",
+            "target": "be labeled with the European CE mark",
+            "source_graph": "eventic"
+          },
+          {
+            "source": "Products",
+            "relation": "shall_not",
+            "target": "have any labels from country specific requirements",
+            "source_graph": "eventic"
+          },
+          {
+            "source": "Film producer",
+            "relation": "subject",
+            "target": "Film producers",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Film producer",
+            "relation": "subject",
+            "target": "Entertainment occupations",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Film producer",
+            "relation": "subject",
+            "target": "Filmmaking occupations",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Products",
+            "relation": "IsA",
+            "target": "Items or services offered to consumers for purchase, which can fulfill a need or desire.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Film producers",
+            "relation": "IsA",
+            "target": "Individuals or entities responsible for overseeing the production of films, including financing, production management, and distribution.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Entertainment occupations",
+            "relation": "IsA",
+            "target": "Jobs involving the performance, production, or promotion of artistic and recreational activities for public enjoyment.",
+            "source_graph": "term_definition"
+          },
+          {
+            "source": "Film director",
+            "relation": "subject",
+            "target": "Directors",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Film director",
+            "relation": "hypernym",
+            "target": "Person",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Film director",
+            "relation": "subject",
+            "target": "Entertainment occupations",
+            "source_graph": "entity"
+          },
+          {
+            "source": "Filmmaking occupations",
+            "relation": "IsA",
+            "target": "A range of professional roles involved in the creation, production, and distribution of films, including directors, producers, cinematographers, and editors.",
+            "source_graph": "term_definition"
+          }
+        ]
+      }
+    },
+    "conflict": 1
+  }
+]

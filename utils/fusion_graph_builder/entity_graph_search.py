@@ -1,4 +1,4 @@
-# utils/entity_graph_search.py
+# utils/fusion_graph_builder/entity_graph_search.py
 from __future__ import annotations
 import re
 import json
@@ -40,6 +40,19 @@ def dbg(verbose: bool, *args):
     if verbose:
         print("[DBG]", *args)
 
+# 특수기호 제거: relation 정제용
+_REL_ALLOWED = re.compile(r"[^A-Za-z0-9_ ]+")  # 영숫자/언더스코어/공백만 허용
+def _clean_relation(text: str) -> str:
+    """
+    relation에 특수기호가 포함되면 모두 제거.
+    예) 'birthPlace#' -> 'birthPlace', 'wikiPage-ID' -> 'wikiPageID'
+    """
+    t = (text or "").strip()
+    t = _REL_ALLOWED.sub("", t)
+    # 다중 공백 축소
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
 # ----------------------------------------------------
 # 0) 위키 메타 관계 식별 (기본 제외)
 # ----------------------------------------------------
@@ -61,6 +74,10 @@ WIKI_REL_LOCAL_BLOCKLIST = {
     "wikidataSplitIri",
     "22-rdf-syntax-ns#type",
     "rdf-schema#seeAlso",
+    "prov#wasDerivedFrom",
+    "owl#sameAs",
+    "df-schema#label",
+    "thumbnail",
 }
 
 def _is_wiki_relation(p_uri: str, rel_local: str) -> bool:
@@ -246,13 +263,20 @@ def fetch_dbpedia_triples(
             if relations and rel_local not in relations:
                 continue
 
-            relation_text = p_label or rel_local
+            # relation 텍스트: 라벨 우선, 없으면 로컬명 → 특수기호 제거
+            relation_text_raw = p_label or rel_local
+            relation_text = _clean_relation(relation_text_raw)
+            if not relation_text:
+                # 전부 제거되어 빈 문자열이면 스킵
+                continue
+
+            # target 텍스트
             if o_type == "uri":
                 target_text = (o_label or _localname(o_val)).replace("_", " ")
             else:
                 target_text = o_label or o_val  # literal
 
-            sig = (source_label.lower(), relation_text, target_text.lower())
+            sig = (source_label.lower(), relation_text, (target_text or "").lower())
             if sig in seen:
                 continue
 
