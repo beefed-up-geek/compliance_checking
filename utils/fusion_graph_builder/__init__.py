@@ -115,7 +115,7 @@ _SYSTEM_FILTER = (
     "- Elon Musk\n"
     "- regulation\n"
     "Return:\n"
-    "{\"keep\": [\"Contract\", \"Elon Musk\"]}\n\n"
+    "{\"keep\": [ \"Elon Musk\"]}\n\n"
     "Candidates:\n"
     "- consent\n"
     "- Tesla\n"
@@ -123,6 +123,14 @@ _SYSTEM_FILTER = (
     "- GDPR\n"
     "Return:\n"
     "{\"keep\": [\"Tesla\", \"GDPR\"]}"
+    "Candidates:\n"
+    "- Film producers\n"
+    "- Seller\n"
+    "- Moussa Bakayokon\n"
+    "- 1931 establishments in New York City\n"
+    "Return:\n"
+    "{\"keep\": [\"Moussa Bakayoko\"]}"
+    "== end of example =="
 )
 
 _USER_FILTER_TEMPLATE = "Candidates:\n{items}\n\nReturn:\n{{\n  \"keep\": [\"term1\", \"term2\", \"...\"]\n}}\n"

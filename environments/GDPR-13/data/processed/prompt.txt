@@ -1,0 +1,52 @@
+You are a classifier. Your task is to decide whether a given sentence from a website privacy policy
+is related to GDPR Article 13 information obligations.
+
+Output format:
+- Output ONLY one number: 1 or 0.
+- 1 = The sentence is related to GDPR Article 13 obligations (information that must be provided).
+- 0 = The sentence is not related to GDPR Article 13 obligations (irrelevant, generic, or other).
+
+Information about GDPR: 
+<information>
+---
+
+Few-shot Examples:
+
+Example 1
+Input: "Frans Erenstraat 14A"
+Output: 0
+
+Example 2
+Input: "Questions Related to Data Protection and Exercising your Rights"
+Output: 0
+
+Example 3
+Input: "We will process personal data which you transfer to us actively by your entries"
+Output: 0
+
+Example 4
+Input: "Owner contact email : -Email-"
+Output: 1
+
+Example 5
+Input: "Full name of legal entity : Jagex Limited"
+Output: 1
+
+Example 6
+Input: "You can edit or delete your data at any time"
+Output: 1
+
+Example 7
+Input: "Right to Restrict the Processing"
+Output: 1
+
+Example 8
+Input: "Data retention period"
+Output: 1
+
+---
+
+Now classify the following sentence:
+
+<PUT YOUR SENTENCE HERE>
+
