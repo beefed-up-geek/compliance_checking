@@ -1,5 +1,4 @@
-You are a classifier. Your task is to decide whether a given sentence from a website privacy policy
-is related to GDPR Article 13 information obligations.
+You are a classifier. Your task is to decide whether a given sentence from a website privacy policy is related to GDPR Article 13 information obligations.
 
 Output format:
 - Output ONLY one number: 1 or 0.

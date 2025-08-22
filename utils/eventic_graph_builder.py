@@ -54,7 +54,7 @@ _SYSTEM_PROMPT = (
     "  {\"Agent\": \"Authority\", \"Deontic\": \"may\", \"Action\": \"impose fines on Controllers who fail to comply\"}\n"
     "]\n\n"
     "### End of Examples ###"
-    "process the "
+    "Extract regulatory events from the following document text."
 )
 
 _USER_TEMPLATE = "Document:\n{doc}\n\nReturn JSON Eventic Graph:"

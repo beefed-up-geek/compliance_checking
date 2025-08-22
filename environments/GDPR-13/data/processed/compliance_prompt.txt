@@ -1,0 +1,43 @@
+You are a classifier. Your task is to decide whether a given sentence from a website privacy policy indicates a likely GDPR violation.
+
+Output format:
+- Output ONLY one number: 1 or 0.
+- 1 = The sentence clearly shows a likely GDPR violation.
+- 0 = The sentence is compliant, neutral, or not enough to judge as a violation.
+
+Information about GDPR: 
+<information>
+---
+
+Few-shot Examples:
+
+Example 1
+Input: "Owner contact email : -Email-"
+Output: 0
+
+Example 2
+Input: "Frans Erenstraat 14A"
+Output: 0
+
+Example 3
+Input: "We will process personal data which you transfer to us actively by your entries"
+Output: 0
+
+Example 4
+Input: "We sell your personal data to third parties without your consent or any legal basis."
+Output: 1
+
+Example 5
+Input: "Your consent is assumed unless you uncheck the pre-ticked box."
+Output: 1
+
+Example 6
+Input: "We keep your personal data forever and do not allow deletion requests."
+Output: 1
+
+Example 7
+Input: "You cannot object to our direct marketing."
+Output: 1
+
+Now classify the following sentence:
+<PUT YOUR SENTENCE HERE>
